@@ -9,7 +9,7 @@ export default function Notice() {
       <div className="container h-full m-auto flex justify-center items-center">
         <div className="flex flex-col gap-8 items-center">
           <div className="font-monserrat text-2xl">
-            The website is currently under maintainence.
+            The website is currently under maintenance.
           </div>
           <div className={classNames(
             "rounded-full px-6 py-3 cursor-pointer",

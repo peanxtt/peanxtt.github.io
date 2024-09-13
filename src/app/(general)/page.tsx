@@ -4,7 +4,7 @@ import HeroSection from "@/components/Sections/HeroSection";
 import { redirect } from "next/navigation";
 
 export default function Home() {
-  // redirect('/notice')
+  redirect('/notice')
 
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
