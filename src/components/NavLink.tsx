@@ -11,7 +11,7 @@ const NavLink = ({ href, title }: Props) => {
     <Link
       href={href}
       className={classNames(
-        'block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white',
+        'block py-2 pl-3 pr-4 text-[#C1AB85] sm:text-xl rounded md:p-0 hover:text-[#C1AB85]/80',
         'transition-colors duration-150 delay-75'
       )}
     >
